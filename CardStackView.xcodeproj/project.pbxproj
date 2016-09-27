@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B541319B1D6C5A1800507F13 /* UIView+UpdateFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B541319A1D6C5A1800507F13 /* UIView+UpdateFrame.m */; };
+		B567F4FC1D6AD88900FCDDD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F4FB1D6AD88900FCDDD1 /* main.m */; };
+		B567F4FF1D6AD88900FCDDD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F4FE1D6AD88900FCDDD1 /* AppDelegate.m */; };
+		B567F5021D6AD88900FCDDD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F5011D6AD88900FCDDD1 /* ViewController.m */; };
+		B567F5051D6AD88900FCDDD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B567F5031D6AD88900FCDDD1 /* Main.storyboard */; };
+		B567F5071D6AD88900FCDDD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B567F5061D6AD88900FCDDD1 /* Assets.xcassets */; };
+		B567F50A1D6AD88900FCDDD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B567F5081D6AD88900FCDDD1 /* LaunchScreen.storyboard */; };
+		B567F5131D6ADD4200FCDDD1 /* CardViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F5121D6ADD4200FCDDD1 /* CardViewBackground.m */; };
+		B567F5161D6ADD7700FCDDD1 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F5151D6ADD7700FCDDD1 /* CardView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B54131991D6C5A1800507F13 /* UIView+UpdateFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UpdateFrame.h"; sourceTree = "<group>"; };
+		B541319A1D6C5A1800507F13 /* UIView+UpdateFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UpdateFrame.m"; sourceTree = "<group>"; };
+		B567F4F71D6AD88800FCDDD1 /* CardStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B567F4FB1D6AD88900FCDDD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B567F4FD1D6AD88900FCDDD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B567F4FE1D6AD88900FCDDD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B567F5001D6AD88900FCDDD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B567F5011D6AD88900FCDDD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B567F5041D6AD88900FCDDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B567F5061D6AD88900FCDDD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B567F5091D6AD88900FCDDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B567F50B1D6AD88900FCDDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B567F5111D6ADD4200FCDDD1 /* CardViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewBackground.h; sourceTree = "<group>"; };
+		B567F5121D6ADD4200FCDDD1 /* CardViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewBackground.m; sourceTree = "<group>"; };
+		B567F5141D6ADD7700FCDDD1 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		B567F5151D6ADD7700FCDDD1 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B567F4F41D6AD88800FCDDD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B567F4EE1D6AD88800FCDDD1 = {
+			isa = PBXGroup;
+			children = (
+				B567F4F91D6AD88800FCDDD1 /* CardStackView */,
+				B567F4F81D6AD88800FCDDD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B567F4F81D6AD88800FCDDD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B567F4F71D6AD88800FCDDD1 /* CardStackView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B567F4F91D6AD88800FCDDD1 /* CardStackView */ = {
+			isa = PBXGroup;
+			children = (
+				B567F4FD1D6AD88900FCDDD1 /* AppDelegate.h */,
+				B567F4FE1D6AD88900FCDDD1 /* AppDelegate.m */,
+				B567F5001D6AD88900FCDDD1 /* ViewController.h */,
+				B567F5011D6AD88900FCDDD1 /* ViewController.m */,
+				B567F5031D6AD88900FCDDD1 /* Main.storyboard */,
+				B567F5061D6AD88900FCDDD1 /* Assets.xcassets */,
+				B567F5081D6AD88900FCDDD1 /* LaunchScreen.storyboard */,
+				B567F50B1D6AD88900FCDDD1 /* Info.plist */,
+				B567F4FA1D6AD88800FCDDD1 /* Supporting Files */,
+				B567F5111D6ADD4200FCDDD1 /* CardViewBackground.h */,
+				B567F5121D6ADD4200FCDDD1 /* CardViewBackground.m */,
+				B567F5141D6ADD7700FCDDD1 /* CardView.h */,
+				B567F5151D6ADD7700FCDDD1 /* CardView.m */,
+				B54131991D6C5A1800507F13 /* UIView+UpdateFrame.h */,
+				B541319A1D6C5A1800507F13 /* UIView+UpdateFrame.m */,
+			);
+			path = CardStackView;
+			sourceTree = "<group>";
+		};
+		B567F4FA1D6AD88800FCDDD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B567F4FB1D6AD88900FCDDD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B567F4F61D6AD88800FCDDD1 /* CardStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B567F50E1D6AD88900FCDDD1 /* Build configuration list for PBXNativeTarget "CardStackView" */;
+			buildPhases = (
+				B567F4F31D6AD88800FCDDD1 /* Sources */,
+				B567F4F41D6AD88800FCDDD1 /* Frameworks */,
+				B567F4F51D6AD88800FCDDD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardStackView;
+			productName = CardStackView;
+			productReference = B567F4F71D6AD88800FCDDD1 /* CardStackView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B567F4EF1D6AD88800FCDDD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = V2Solutions;
+				TargetAttributes = {
+					B567F4F61D6AD88800FCDDD1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B567F4F21D6AD88800FCDDD1 /* Build configuration list for PBXProject "CardStackView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B567F4EE1D6AD88800FCDDD1;
+			productRefGroup = B567F4F81D6AD88800FCDDD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B567F4F61D6AD88800FCDDD1 /* CardStackView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B567F4F51D6AD88800FCDDD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B567F50A1D6AD88900FCDDD1 /* LaunchScreen.storyboard in Resources */,
+				B567F5071D6AD88900FCDDD1 /* Assets.xcassets in Resources */,
+				B567F5051D6AD88900FCDDD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B567F4F31D6AD88800FCDDD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B567F5131D6ADD4200FCDDD1 /* CardViewBackground.m in Sources */,
+				B567F5021D6AD88900FCDDD1 /* ViewController.m in Sources */,
+				B567F4FF1D6AD88900FCDDD1 /* AppDelegate.m in Sources */,
+				B567F4FC1D6AD88900FCDDD1 /* main.m in Sources */,
+				B541319B1D6C5A1800507F13 /* UIView+UpdateFrame.m in Sources */,
+				B567F5161D6ADD7700FCDDD1 /* CardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B567F5031D6AD88900FCDDD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B567F5041D6AD88900FCDDD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B567F5081D6AD88900FCDDD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B567F5091D6AD88900FCDDD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B567F50C1D6AD88900FCDDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B567F50D1D6AD88900FCDDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B567F50F1D6AD88900FCDDD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardStackView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.PropertyObservers.CardStackView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B567F5101D6AD88900FCDDD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardStackView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.v2solutions.PropertyObservers.CardStackView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B567F4F21D6AD88800FCDDD1 /* Build configuration list for PBXProject "CardStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B567F50C1D6AD88900FCDDD1 /* Debug */,
+				B567F50D1D6AD88900FCDDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B567F50E1D6AD88900FCDDD1 /* Build configuration list for PBXNativeTarget "CardStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B567F50F1D6AD88900FCDDD1 /* Debug */,
+				B567F5101D6AD88900FCDDD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B567F4EF1D6AD88800FCDDD1 /* Project object */;
+}
