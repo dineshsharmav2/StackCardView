@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B541319B1D6C5A1800507F13 /* UIView+UpdateFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B541319A1D6C5A1800507F13 /* UIView+UpdateFrame.m */; };
+		B55868D01D9AAE8800FFF2B4 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B55868CB1D9AAE8800FFF2B4 /* CardView.m */; };
+		B55868D11D9AAE8800FFF2B4 /* CardViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = B55868CD1D9AAE8800FFF2B4 /* CardViewBackground.m */; };
+		B55868D21D9AAE8800FFF2B4 /* UIView+UpdateFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = B55868CF1D9AAE8800FFF2B4 /* UIView+UpdateFrame.m */; };
 		B567F4FC1D6AD88900FCDDD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F4FB1D6AD88900FCDDD1 /* main.m */; };
 		B567F4FF1D6AD88900FCDDD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F4FE1D6AD88900FCDDD1 /* AppDelegate.m */; };
 		B567F5021D6AD88900FCDDD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F5011D6AD88900FCDDD1 /* ViewController.m */; };
 		B567F5051D6AD88900FCDDD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B567F5031D6AD88900FCDDD1 /* Main.storyboard */; };
 		B567F5071D6AD88900FCDDD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B567F5061D6AD88900FCDDD1 /* Assets.xcassets */; };
 		B567F50A1D6AD88900FCDDD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B567F5081D6AD88900FCDDD1 /* LaunchScreen.storyboard */; };
-		B567F5131D6ADD4200FCDDD1 /* CardViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F5121D6ADD4200FCDDD1 /* CardViewBackground.m */; };
-		B567F5161D6ADD7700FCDDD1 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = B567F5151D6ADD7700FCDDD1 /* CardView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B54131991D6C5A1800507F13 /* UIView+UpdateFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UpdateFrame.h"; sourceTree = "<group>"; };
-		B541319A1D6C5A1800507F13 /* UIView+UpdateFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UpdateFrame.m"; sourceTree = "<group>"; };
+		B55868CA1D9AAE8800FFF2B4 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		B55868CB1D9AAE8800FFF2B4 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		B55868CC1D9AAE8800FFF2B4 /* CardViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewBackground.h; sourceTree = "<group>"; };
+		B55868CD1D9AAE8800FFF2B4 /* CardViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewBackground.m; sourceTree = "<group>"; };
+		B55868CE1D9AAE8800FFF2B4 /* UIView+UpdateFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UpdateFrame.h"; sourceTree = "<group>"; };
+		B55868CF1D9AAE8800FFF2B4 /* UIView+UpdateFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UpdateFrame.m"; sourceTree = "<group>"; };
 		B567F4F71D6AD88800FCDDD1 /* CardStackView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardStackView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B567F4FB1D6AD88900FCDDD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B567F4FD1D6AD88900FCDDD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -31,10 +35,6 @@
 		B567F5061D6AD88900FCDDD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B567F5091D6AD88900FCDDD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B567F50B1D6AD88900FCDDD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B567F5111D6ADD4200FCDDD1 /* CardViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewBackground.h; sourceTree = "<group>"; };
-		B567F5121D6ADD4200FCDDD1 /* CardViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewBackground.m; sourceTree = "<group>"; };
-		B567F5141D6ADD7700FCDDD1 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
-		B567F5151D6ADD7700FCDDD1 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +48,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B55868C91D9AAE8800FFF2B4 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				B55868CA1D9AAE8800FFF2B4 /* CardView.h */,
+				B55868CB1D9AAE8800FFF2B4 /* CardView.m */,
+				B55868CC1D9AAE8800FFF2B4 /* CardViewBackground.h */,
+				B55868CD1D9AAE8800FFF2B4 /* CardViewBackground.m */,
+				B55868CE1D9AAE8800FFF2B4 /* UIView+UpdateFrame.h */,
+				B55868CF1D9AAE8800FFF2B4 /* UIView+UpdateFrame.m */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
 		B567F4EE1D6AD88800FCDDD1 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +80,7 @@
 		B567F4F91D6AD88800FCDDD1 /* CardStackView */ = {
 			isa = PBXGroup;
 			children = (
+				B55868C91D9AAE8800FFF2B4 /* CardView */,
 				B567F4FD1D6AD88900FCDDD1 /* AppDelegate.h */,
 				B567F4FE1D6AD88900FCDDD1 /* AppDelegate.m */,
 				B567F5001D6AD88900FCDDD1 /* ViewController.h */,
@@ -76,12 +90,6 @@
 				B567F5081D6AD88900FCDDD1 /* LaunchScreen.storyboard */,
 				B567F50B1D6AD88900FCDDD1 /* Info.plist */,
 				B567F4FA1D6AD88800FCDDD1 /* Supporting Files */,
-				B567F5111D6ADD4200FCDDD1 /* CardViewBackground.h */,
-				B567F5121D6ADD4200FCDDD1 /* CardViewBackground.m */,
-				B567F5141D6ADD7700FCDDD1 /* CardView.h */,
-				B567F5151D6ADD7700FCDDD1 /* CardView.m */,
-				B54131991D6C5A1800507F13 /* UIView+UpdateFrame.h */,
-				B541319A1D6C5A1800507F13 /* UIView+UpdateFrame.m */,
 			);
 			path = CardStackView;
 			sourceTree = "<group>";
@@ -164,12 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B567F5131D6ADD4200FCDDD1 /* CardViewBackground.m in Sources */,
+				B55868D11D9AAE8800FFF2B4 /* CardViewBackground.m in Sources */,
 				B567F5021D6AD88900FCDDD1 /* ViewController.m in Sources */,
 				B567F4FF1D6AD88900FCDDD1 /* AppDelegate.m in Sources */,
+				B55868D21D9AAE8800FFF2B4 /* UIView+UpdateFrame.m in Sources */,
+				B55868D01D9AAE8800FFF2B4 /* CardView.m in Sources */,
 				B567F4FC1D6AD88900FCDDD1 /* main.m in Sources */,
-				B541319B1D6C5A1800507F13 /* UIView+UpdateFrame.m in Sources */,
-				B567F5161D6ADD7700FCDDD1 /* CardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
